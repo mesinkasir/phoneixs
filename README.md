@@ -1,7 +1,33 @@
 # PhoniexsAngular
 
-Installation phoneixs angular integration with firebase real time database
+### Modern Angular CMS Blog
 
+![angular blog cms](https://a.fsdn.com/con/app/proj/phoneixs/screenshots/Screenshot_2020-09-24%20AngularBlog%20-%20Copy.jpg/max/max/1)
+
+Fire now with phoneixs angular !!
+
+![angular blog cms](https://a.fsdn.com/con/app/proj/phoneixs/screenshots/Screenshot_2020-09-24%20Angular%20Blog%20CMS%20-%20Phoneixs%20Angular.png/max/max/1)
+
+New modern blog platform using angular integration with firebase real time database.
+
+![angular blog cms](https://a.fsdn.com/con/app/proj/phoneixs/screenshots/Screenshot_2020-09-23%20AngularBlog.png/max/max/1)
+
+Login form with API key on firebase database
+
+![angular blog cms](https://a.fsdn.com/con/app/proj/phoneixs/screenshots/Screenshot_2020-09-24%20AngularBlog.png/max/max/1)
+
+Simple and fast for write content
+
+![angular blog cms](https://a.fsdn.com/con/app/proj/phoneixs/screenshots/Screenshot_2020-09-24%20AngularBlog%281%29.png/max/max/1)
+
+Make easy for update edit or delete post article
+
+![angular blog cms](https://a.fsdn.com/con/app/proj/phoneixs/screenshots/Screenshot_2020-09-23%20AngularBlog%282%29.png/max/max/1)
+
+Can upload image or video on post.
+
+
+Installation phoneixs angular integration with firebase real time database
 
 Step 1 :
 
@@ -25,9 +51,9 @@ copy your url database and API key and paste on your enviroment.ts file (look on
 
 Step 3 :
 
-Download phoneixs angular on sourcforge :
+Download phoneixs angular on sourcforge : https://sourceforge.net/projects/phoneixs/
 
-or fork clone it via github :
+or fork clone it via github : https://github.com/mesinkasir/phoneixs
 
 open enverioment.ts and enverioment.prod.ts file on \src\environments with your text editor like notepad++ or VS code, and then configure database with your firebase real time db. and save it.(look on step 2)
 
@@ -71,3 +97,5 @@ For edit or delete article you can click on admin dashboard menu with clik on ho
 
 For log out from phoneixs angular just click on power button.
 
+
+Demo : https://phoneixsangular.web.app
