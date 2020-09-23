@@ -1,0 +1,43 @@
+<div class="row">
+<div class="col-12 col-md-12 p-3 p-md-5"></div>
+<div class="col-12 col-md-12 p-3 p-md-5 shadow rounded">
+<div *ngIf="posts.length; else loading">
+
+    <input type="text" placeholder="Search..." [(ngModel)]="searchStr" />
+
+  <table class="table">
+    <thead>
+      <tr class="bg-danger text-white">
+        <th>#</th>
+        <th>Title</th>
+        <th>Description</th>
+        <!--<th>Date</th>-->
+        <th>Action</th>  
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let post of posts | searchPosts: searchStr; let idx = index">
+        <td>{{ idx + 1 }}</td>
+        <td>{{ post.title }}</td>
+        <td>{{ post.author }}</td>
+       <!-- <td>{{ post.date | date: 'longDate':null:'id' }}</td>-->
+        <td><button
+          class="btn btn-link open"
+          [routerLink]="['/admin', 'post', post.id, 'edit']"
+        >
+          Edit
+        </button></td>
+        <td>
+          <a (click)="remove(post.id)" class="text-danger">Delete</a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<ng-template #loading>
+  <p class="text-center">Load A content...</p>
+</ng-template>
+</div>
+</div>

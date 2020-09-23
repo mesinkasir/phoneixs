@@ -1,0 +1,17 @@
+    <div class="row">
+      <div class="col-12 col-md-2 p-3 p-md-5 text-center"></div>
+      <div class="col-12 col-md-8 p-3 p-md-5 text-center">
+  <div class="p-3 p-md-5 shadow rounded">
+    <h3 class="border p-3 bg-danger text-center text-white rounded">Update from Blogs</h3>
+  <div *ngIf="posts$ | async as posts; else loading" class="posts text-left">
+    <app-post *ngFor="let post of posts" [post]="post"></app-post>
+  </div>
+  </div>
+</div>
+  <div class="col-12 col-md-12 text-white text-center">
+    <p>copyrights <a href="https://phoniexsangular.web.app" class="text-white">phoneixsangular.web.app</a></p>
+  </div>
+  <ng-template #loading>
+    <p class="text-center">Load Content...</p>
+  </ng-template>
+</div>

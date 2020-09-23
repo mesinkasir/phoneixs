@@ -1,0 +1,16 @@
+<div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+<h3><a class="text-danger" [routerLink]="['/post', post.id]">{{ post.title }}</a></h3>
+<p class="lead">
+  {{ post.author }} / 
+  <small>{{ post.date | date: 'dd.MM.yyyy' }}</small>
+</p>
+      <!--    <small>{{ post.date | date: 'dd.MM.yyyy' }}</small>
+
+      {{ post.author }}
+   
+    <button [routerLink]="['/post', post.id]" class="btn btn-lg rounded btn btn-dark">
+    View Details
+  </button>
+-->
+  <hr/>
+</div>
