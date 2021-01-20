@@ -1,37 +1,101 @@
-## Welcome to GitHub Pages
+# PhoniexsAngular
 
-You can use the [editor on GitHub](https://github.com/mesinkasir/phoneixs/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+### Modern Angular CMS Blog
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+![angular blog cms](https://a.fsdn.com/con/app/proj/phoneixs/screenshots/Screenshot_2020-09-24%20AngularBlog%20-%20Copy.jpg/max/max/1)
 
-### Markdown
+Fire now with phoneixs angular !!
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+![angular blog cms](https://a.fsdn.com/con/app/proj/phoneixs/screenshots/Screenshot_2020-09-24%20Angular%20Blog%20CMS%20-%20Phoneixs%20Angular.png/max/max/1)
 
-```markdown
-Syntax highlighted code block
+New modern blog platform using angular integration with firebase real time database.
 
-# Header 1
-## Header 2
-### Header 3
+![angular blog cms](https://a.fsdn.com/con/app/proj/phoneixs/screenshots/Screenshot_2020-09-23%20AngularBlog.png/max/max/1)
 
-- Bulleted
-- List
+Login form with API key on firebase database
 
-1. Numbered
-2. List
+![angular blog cms](https://a.fsdn.com/con/app/proj/phoneixs/screenshots/Screenshot_2020-09-24%20AngularBlog.png/max/max/1)
 
-**Bold** and _Italic_ and `Code` text
+Simple and fast for write content
 
-[Link](url) and ![Image](src)
-```
+![angular blog cms](https://a.fsdn.com/con/app/proj/phoneixs/screenshots/Screenshot_2020-09-24%20AngularBlog%281%29.png/max/max/1)
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Make easy for update edit or delete post article
 
-### Jekyll Themes
+![angular blog cms](https://a.fsdn.com/con/app/proj/phoneixs/screenshots/Screenshot_2020-09-23%20AngularBlog%282%29.png/max/max/1)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mesinkasir/phoneixs/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Can upload image or video on post.
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Installation phoneixs angular integration with firebase real time database
+
+Step 1 :
+
+Requipment : Git / Node npm / Angular
+
+After download and install all you can run npm and install angular globaly first open npm / git bash , click on windows logo and typing npm then presh enter.
+
+Now you can run command for install angular globaly.just run this command
+
+npm install -g @angular/cli
+
+
+Step 2 :
+
+You must need to create account and register to firebase , after register on firebase now you can create new project.
+
+Create new project on firebase name it project with your own, and click on real time database , create new database on firebase real time database.
+
+copy your url database and API key and paste on your enviroment.ts file (look on step 3)
+
+
+Step 3 :
+
+Download phoneixs angular on sourcforge : https://sourceforge.net/projects/phoneixs/
+
+or fork clone it via github : https://github.com/mesinkasir/phoneixs
+
+open enverioment.ts and enverioment.prod.ts file on \src\environments with your text editor like notepad++ or VS code, and then configure database with your firebase real time db. and save it.(look on step 2)
+
+back to project folder and run with git bash / npm 
+
+npm install
+
+after installation succsess now you can run phoneixs angular with run command
+
+ng serve
+
+then visit your web browser open localhost:4200
+
+
+And congratulations you have use a modern cms blog web platform with phoneixs angular.
+
+
+First use and get started with phoneixs angular
+
+
+For frontend you can visit localhost:4200 on web browser and for write content you can visit localhost:4200/admin/login
+
+for login you must register user by email recomended on firebase real time database, how to register admin or email , you need to open firebase console and then click on your project. select Authentication - Sign in method and select email activation.
+
+After email activation success save it, and then click on users - add new user and register email with password in here.
+
+Now you can open on admin login page and login with email password your register on firebase real time database.
+
+
+
+After login you can see a dashboard pages, on dashboard you can see all detail your post if you have post an articel before, and on navbar header you can see logo home , pen , and power . Home is a dashboard admin pages , pen is for create new article content for blog , and power is for log out from phoneixs angular blog.
+
+
+For write new article you can click on pen icon, then insert title , description and write your content in here.
+
+You can insert foto or media like video with text editor , after finish write content you can click on publih now button in bottom, and your post is successfully created. You can create new article with same step.
+
+
+For edit or delete article you can click on admin dashboard menu with clik on home icon, and you can select edit or delete in article post list.
+
+
+For log out from phoneixs angular just click on power button.
+
+
+Demo : https://phoneixsangular.web.app
