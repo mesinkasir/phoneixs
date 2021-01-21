@@ -1,5 +1,7 @@
 # PhoniexsAngular
 
+For full installation and documentation and live demo visit here : https://www.hockeycomputindo.com/2020/10/angular-cms-blog-new-phoneixs-angular.html
+
 ### Modern Angular CMS Blog
 
 ![angular blog cms](https://a.fsdn.com/con/app/proj/phoneixs/screenshots/Screenshot_2020-09-24%20AngularBlog%20-%20Copy.jpg/max/max/1)
@@ -97,5 +99,6 @@ For edit or delete article you can click on admin dashboard menu with clik on ho
 
 For log out from phoneixs angular just click on power button.
 
+For full installation and documentation and live demo visit here : https://www.hockeycomputindo.com/2020/10/angular-cms-blog-new-phoneixs-angular.html
 
 Demo : https://phoneixsangular.web.app
